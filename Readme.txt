@@ -1,0 +1,1 @@
+To run the program in windows system, install jdk1.3 into c: drive and just double click Run.bat file.
