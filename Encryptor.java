@@ -122,7 +122,7 @@ public class Encryptor extends JFrame implements ActionListener
          {
             public void windowClosing(WindowEvent e)
             {
-               int result = JOptionPane.showConfirmDialog( Encryptor.this, "Do you really Want to exit?", "Confirmation", JOptionPane.YES_NO_OPTION );
+               int result = JOptionPane.showConfirmDialog( Encryptor.this, "Do you want to exit?", "Confirmation", JOptionPane.YES_NO_OPTION );
                if( result == JOptionPane.YES_OPTION )
                {
                   System.exit( 0 );
@@ -194,7 +194,7 @@ public class Encryptor extends JFrame implements ActionListener
       }
       else if( event.getSource() == helpButton )
       {
-            String tmp = "File Encryptor v1.4(WED 4:43 PM 16-NOV-2005)\nProgrammed by Wasiqul Islam\nE-mail: 'wasiqul_islam@yahoo.com'\n\n\nThis program is used to make a file(encrypt a file) such that \nNO ONE CAN READ IT.\nType file Paths and Type character codes\nand click ENCRYPT or DECRYPT Button to perform file operation.\nIf you encrypt a file with a code you can retrieve original file by\ndecrypting it with only the previously applied code used for encryption.\n\n\n" +
+            String tmp = "File Encryptor v1.4(WED 4:43 PM 16-NOV-2005)\nProgrammed by Wasiqul Islam\nE-mail: 'islam.wasiqul@gmail.com'\n\n\nThis program is used to make a file(encrypt a file) such that \nno one can read it.\nType file paths and Type character codes\nand click ENCRYPT or DECRYPT Button to perform file operation.\nIf you encrypt a file with a code you can retrieve original file by\ndecrypting it with only the previously applied code used for encryption.\n\n\n" +
             "A simple example:\nClick RESET.\nClick the left blue '?' marked button.\nSelect any file\n(do not select important file yet, as you are practicing).\nThen type a password or code at the code text field.\nClick ENCRYPT button.\nAt this step your file is encrypted.\nJust click the DECRYPT button again to decrypt the file to\nretain to its original contents.\nThis is a simple example but\nyou can change the path of 'Write to' text field to another file\nfor keeping the source file unchanged(specially for safety, but requires much space).\n\n\nWarning:\nDo not encrypt a file more than once.\nAlways make sure that you DO NOT FORGET THE CODE." +
             "\n\n\nNote:\nEncrypt a file with your secret code to make it unreadable\nand when you want to read that file decrypt it with the same code to make it readable.\nYou can use this program to any kind of file such as text file, execution file etc.\nThis program processes only one file at a time so\nif you want to encrypt several files at a time convert them into a single file\n(for example making all the files as a zip file etc.)and encrypt that single file.\nThis program takes about 2 to 3 minutes to process a file of 500 MB length.\nNote that you cannot change a file which is set to 'Read-Only' mode by the operating system.\nUncheck the 'Read-only' attribute before proceeding." +
             "\n\n\nExtra Notes(for advanced users only):\nEncrypt operation with a code is total inverse of\nDecrypt operation with the same code,\nso if you find any problem such as 'you encrypted twice' etc.\ntry doing the inverse operation the same number of time in inverse sequence.\n\n\nAdvanced code:\nYou can also enter code as ASCII integer values by pressing ENTER\nwhen the focus is on the code text field.\nEnter as many integers as you want but\nmake sure to write it down sequentially or remember its sequence.";
@@ -369,7 +369,7 @@ public class Encryptor extends JFrame implements ActionListener
             String str1 = "File Size " + file1.length() + " bytes\nDo you want to proceed with this operation?";
             if( file1.getPath().equals(  file2.getPath() ) )
             {
-               str1 += "\n\n( Warning : If a power failure occurs  during this process\nall file data to be corrapted and can't be retrieved anymore,\nbecause you are going to overwrite existing file rather \ncreating a new file.)";
+               str1 += "\n\n( Warning : If a power failure occurs  during this process\nall file data may be corrupted and can't be retrieved anymore,\nbecause you are going to overwrite existing file rather \ncreating a new file.)";
             }
             else
             {
