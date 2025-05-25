@@ -1,7 +1,10 @@
 # Encryptor v1.4
 
-This program is used to make a file(encrypt a file) such that 
-no one can read it.
+This program is used to modify a file (encrypt a file) so that no one can read it.
+To run it simply download the "Encryptor.zip" zip file and extract and run (this works in Windows only). No setup is required for this.
+
+![image](https://github.com/user-attachments/assets/80be7d51-a2f6-4c04-9752-464189dd3272)
+
 Type file paths and Type character codes
 and click ENCRYPT or DECRYPT Button to perform file operation.
 If you encrypt a file with a code you can retrieve original file by
@@ -25,7 +28,6 @@ for keeping the source file unchanged(specially for safety, but requires much sp
 Warning:
 Do not encrypt a file more than once.
 Always make sure that you DO NOT FORGET THE CODE.
-
 
 Note:
 Encrypt a file with your secret code to make it unreadable
