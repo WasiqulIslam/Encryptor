@@ -54,5 +54,5 @@ when the focus is on the code text field.
 Enter as many integers as you want but
 make sure to write it down sequentially or remember its sequence.
 
-Note that this is a basic encryption technique and hackers might be able to decrypt it.
+Note that this is a basic encryption technique and hackers might be able to decrypt it if your code is not long enough.
 
